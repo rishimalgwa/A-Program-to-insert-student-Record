@@ -88,14 +88,7 @@ void file()
     }
     for(i=0;i<2;i++)
     {
-    	fprintf(fp,"Student name:%s\n",s[i].name);
-    	fprintf(fp,"Roll no of student:%d\n",s[i].rno);
-    	fprintf(fp,"Marks in Physics:%d\n",m.phy);
-    	fprintf(fp,"Marks in Chemistry:%d\n",m.chem);
-    	fprintf(fp,"Marks in Maths:%d\n",m.maths);
-    	fprintf(fp,"Marks in English:%d\n",m.eng);
-    	fprintf(fp,"Marks in Hindi:%d\n",m.hindi);
-    	fprintf(fp,"-------------------\n");
+    	fprintf(fp,"Student name:%s"",""rollno.:%d"",""Physics:%d"",""Chemistry:%d"",""Maths:%d"",""English:%d"",""Hindi:%d""\n",s[i].name,s[i].rno,m.phy,m.chem,m.maths,m.eng,m.hindi);
 	}
 	fclose(fp);
     
@@ -127,14 +120,7 @@ void newfile()
     }
     for(i=0;i<2;i++)
     {
-    	fprintf(fn,"Student name:%s\n",s[i].name);
-    	fprintf(fn,"Roll no of student:%d\n",s[i].rno);
-    	fprintf(fn,"Marks in Physics:%d\n",m.phy);
-    	fprintf(fn,"Marks in Chemistry:%d\n",m.chem);
-    	fprintf(fn,"Marks in Maths:%d\n",m.maths);
-    	fprintf(fn,"Marks in English:%d\n",m.eng);
-    	fprintf(fn,"Marks in Hindi:%d\n",m.hindi);
-    	fprintf(fn,"-------------------\n");
+    fprintf(fn,"Student name:%s"",""rollno.:%d"",""Physics:%d"",""Chemistry:%d"",""Maths:%d"",""English:%d"",""Hindi:%d""\n",s[i].name,s[i].rno,m.phy,m.chem,m.maths,m.eng,m.hindi);
 	}
 	fclose(fn);
 }
@@ -167,14 +153,7 @@ void addrecord()
     }
     for(i=0;i<n;i++)
     {
-    	fprintf(fa,"Student name:%s\n",s[i].name);
-    	fprintf(fa,"Roll no of student:%d\n",s[i].rno);
-    	fprintf(fa,"Marks in Physics:%d\n",m.phy);
-    	fprintf(fa,"Marks in Chemistry:%d\n",m.chem);
-    	fprintf(fa,"Marks in Maths:%d\n",m.maths);
-    	fprintf(fa,"Marks in English:%d\n",m.eng);
-    	fprintf(fa,"Marks in Hindi:%d\n",m.hindi);
-    	fprintf(fa,"-------------------\n");
+    	fprintf(fa,"Student name:%s"",""rollno.:%d"",""Physics:%d"",""Chemistry:%d"",""Maths:%d"",""English:%d"",""Hindi:%d""\n",s[i].name,s[i].rno,m.phy,m.chem,m.maths,m.eng,m.hindi);
 	}
 	fclose(fa);
 }
